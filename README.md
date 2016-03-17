@@ -15,7 +15,7 @@
 
 – Tested on Ubuntu 16.10:
 
-* Download and install at least [POV-Ray 3.7.1-alpha.8509766](https://github.com/POV-Ray/povray/releases/tag/v3.7.1-alpha.8509766%2Bav119).
+* Download and install [POV-Ray 3.7.1-alpha.8509766](https://github.com/POV-Ray/povray/releases/tag/v3.7.1-alpha.8509766%2Bav119). For camera settings in ```mirrors.pov``` to work we need to have a [function-based user-defined camera](https://github.com/POV-Ray/povray/commit/c5f8d78e2116a02daed2151e02234095fe4d5642).
 * Install git, ffmpeg and make.
 * To create ```mirrors-loop.mov``` run:
 ```bash
