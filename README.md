@@ -7,11 +7,11 @@
 
 ### Demo-Videos
 
-On Android [Watch 360 degree videos in Cardboard](https://support.google.com/youtube/answer/6239930?hl=en):
+[Watch 360 degree videos in Cardboard](https://support.google.com/youtube/answer/6239930?hl=en) on Android:
 
-* https://www.youtube.com/watch?v=UEFO5mQ2zeg – ```mirrors-loop.mov```
+* https://www.youtube.com/watch?v=UEFO5mQ2zeg
 
-### HOWTO
+### ODS POV-Ray, YouTube HOWTO
 
 – Tested on Ubuntu 16.10:
 
@@ -49,7 +49,7 @@ $ ./gui.py # opens Spatial Media Metadata Injector GUI
 
 ### TODO
 
-* Increase the FPS of ```mirrors-loop.mov```. 90 FPS would be ok, 120 FPS would be optimal. This needs more HDD space, CPU power, andn etwork bandwidth.
-* Add synthetic Ambisonics sound.
+* Add [sound](https://en.wikipedia.org/wiki/Ambisonics).
+* Increase frame-rate. – Needs more HDD space, CPU power, and network bandwidth.
 
-– March, 2016
+[Jakob Flierl](mailto:jakob.flierl@gmail.com) – March, 2016
