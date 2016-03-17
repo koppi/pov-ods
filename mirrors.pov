@@ -1,5 +1,5 @@
 /*
- Based mirrors.pov by Fabrizio Carimati Posted on November 23, 2009
+ Based on mirrors.pov by Fabrizio Carimati Posted on November 23, 2009
  See https://www.clodo.it/blog/mirrors/
 */
 
