@@ -31,7 +31,7 @@ $ ./gui.py # opens Spatial Media Metadata Injector GUI
 ```
 * Open ```mirrors-loop.mov``` in the GUI. Set the check-boxes: ```Spherical``` and ```3D top-bottom```.
 * Save ```mirrors-loop_injected.mov``` and upload to YouTube.
-* Please tag your videos on Youtube with ```#360pov```.
+* Please tag your videos on Youtube with ```#360video``` and ```#360pov```.
 
 – Happy POVing!
 
