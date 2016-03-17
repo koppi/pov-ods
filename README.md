@@ -47,4 +47,9 @@ $ ./gui.py # opens Spatial Media Metadata Injector GUI
 * YouTube ODS content on Android
   * [Watch 360 degree videos in Cardboard](https://support.google.com/youtube/answer/6239930?hl=en)
 
+### TODO
+
+* Increase the FPS of ```mirrors-loop.mov```. 90 FPS would be ok, 120 FPS would be optimal. This needs more HDD space, CPU power, andn etwork bandwidth.
+* Add synthetic Ambisonics sound.
+
 – March, 2016
