@@ -53,6 +53,9 @@ $ ./gui.py # opens Spatial Media Metadata Injector GUI
 * Add [sound](https://en.wikipedia.org/wiki/Ambisonics) – Inspiration, see:
   * https://www.youtube.com/watch?v=eedXpclrKCc
   * https://www.youtube.com/watch?v=lVXmtckavDQ
-* Increase frame-rate and resolution targeted for future [HMD](https://en.wikipedia.org/wiki/Head-mounted_display)s. – Needs more HDD space, CPU power, and network bandwidth.
+* Increase frame-rate and resolution targeted for future [HMD](https://en.wikipedia.org/wiki/Head-mounted_display)s – Needs more:
+  * HDD space,
+  * CPU power,
+  * Network bandwidth.
 
 [Jakob Flierl](mailto:jakob.flierl@gmail.com) – March, 2016
