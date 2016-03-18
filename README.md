@@ -26,12 +26,20 @@ $ make # or "povray mirrors[MEDSQ]" for low quality preview
 * Inject the spatial media metadata into ```mirrors-loop.mov```:
 ```bash
 $ git clone https://github.com/google/spatial-media/
+```
+Via command-line:
+```bash
+$ cd spatial-media/
+$ python2 spatialmedia -i -s top-bottom ../pov-ods/mirrors-loop.mov ../pov-ods/mirrors-loop_injected.mov
+```
+Or via the GUI:
+```bash
 $ cd spatial-media/spatialmedia/
 $ ./gui.py # opens Spatial Media Metadata Injector GUI
 ```
 * Open ```mirrors-loop.mov``` in the GUI. Set the check-boxes: ```Spherical``` and ```3D top-bottom```.
-* Save ```mirrors-loop_injected.mov``` and upload to YouTube.
-* Please tag your videos on Youtube with ```#360video``` and ```#360pov```.
+* Save ```mirrors-loop_injected.mov```
+* Upload to YouTube, please add tags to your Video: ```#360video``` and ```#360pov```.
 
 – Happy POVing!
 
