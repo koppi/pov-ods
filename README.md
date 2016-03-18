@@ -9,11 +9,11 @@
 
 [Watch 360 degree videos in Cardboard](https://support.google.com/youtube/answer/6239930?hl=en) on Android:
 
-* https://www.youtube.com/watch?v=UEFO5mQ2zeg
+* https://www.youtube.com/watch?v=UEFO5mQ2zeg – ```mirrors.pov```
 
 ### ODS POV-Ray, YouTube HOWTO
 
-– Tested on Ubuntu 16.10:
+– Tested on Ubuntu 16.04:
 
 * Download and install [POV-Ray 3.7.1-alpha.8509766](https://github.com/POV-Ray/povray/releases/tag/v3.7.1-alpha.8509766%2Bav119). For camera settings in ```mirrors.pov``` to work we need to have a [function-based user-defined camera](https://github.com/POV-Ray/povray/commit/c5f8d78e2116a02daed2151e02234095fe4d5642).
 * Install git, ffmpeg and make.
