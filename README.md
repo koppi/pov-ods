@@ -48,7 +48,11 @@ $ ./gui.py # opens Spatial Media Metadata Injector GUI
   * [Resolutions and codec for omnidirectional stereo videos](https://forums.oculus.com/viewtopic.php?f=20&t=30852)
 * Related threads – POV-Ray News:
   * [Rendering omnidirectional stereo images for VR headset](http://news.povray.org/povray.text.scene-files/thread/%3C56e3e4b8%241%40news.povray.org%3E/)
-  * [The Cave in ODS format (1,4MB)](http://news.povray.org/povray.binaries.images/thread/%3C56e6a09f%40news.povray.org%3E/)
+  * [The Cave in ODS format (1,4MB)](http://news.povray.org/povray.binaries.images/thread/%3C56e6a09f%40news.povray.org%3E)
+
+### Credits
+
+ * ```mirrors.pov``` – [Clodo](https://www.clodo.it/blog/mirrors/)
 
 ### TODO
 
