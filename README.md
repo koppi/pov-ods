@@ -10,7 +10,7 @@
 [Watch 360 degree videos in Cardboard](https://support.google.com/youtube/answer/6239930?hl=en) on Android:
 
 * https://www.youtube.com/watch?v=UEFO5mQ2zeg – ```mirrors.pov```
-* https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=fOzWHOUMRug – ```axis.pov```
+* https://www.youtube.com/watch?v=fOzWHOUMRug – ```axis.pov```
 
 ### ODS POV-Ray, YouTube HOWTO
 
