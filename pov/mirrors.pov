@@ -129,6 +129,8 @@ camera
   #declare cameraLocationZ = myZ;
 
   #declare ipd = 0.065;
+  
+  // FIXME see: http://news.povray.org/povray.general/thread/%3Cweb.56d38071f91c97bb4e8811590%40news.povray.org%3E/?mtop=406634&moff=40
 
 #if(myMode=3) // ODS top/bottom
   user_defined

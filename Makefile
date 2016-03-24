@@ -1,14 +1,31 @@
-all: anim mov
+SCENE?=mirrors
+INI?=HIGHSQ
+POV?=-d
 
-anim:
-	time nice povray "mirrors[HIGHSQ]"
+all: img mov
+
+help:
+	@echo "usage:"
+	@echo "  'SCENE=axis make', 'SCENE=mirrors make', see pov/"
+	@echo ""
+	@echo " quality settings:"
+	@echo "  'SCENE=axis INI=LOWSQ  make'"
+	@echo "  'SCENE=axis INI=MEDSQ  make'"
+	@echo "  'SCENE=axis INI=HIGHSQ make'"
+	@echo ""
+	@echo " render a low quality preview:"
+	@echo "  'SCENE=axis INI=LOWSQ POV=+d make'"
+	@echo ""
+
+img:
+	time nice povray +Lpov "${SCENE}[${INI}]" ${POV}
 
 mov:
-	ffmpeg -y -framerate 25 -pattern_type glob -i 'mirrors???.png' -c:v libx264 -r 30 -pix_fmt yuv420p mirrors.mov
-	ffmpeg -y -f concat -i mirrors-loop.txt -c copy mirrors-loop.mov
+	time nice ffmpeg -y -framerate 25 -pattern_type glob -i '${SCENE}???.png' -c:v libx264 -r 30 -pix_fmt yuv420p ${SCENE}.mov
+	time nice ffmpeg -y -f concat -i ${SCENE}-loop.txt -c copy ${SCENE}-loop.mov
 
 mp4:
-	ffmpeg -y -framerate 25 -pattern_type glob -i 'mirrors???.png' -c:v libx264 -r 30 -pix_fmt yuv420p mirrors.mp4
+	time nice ffmpeg -y -framerate 25 -pattern_type glob -i '${SCENE}???.png' -c:v libx264 -r 30 -pix_fmt yuv420p ${SCENE}.mp4
 
 clean:
-	/bin/rm -f mirrors???.png mirrors.mov
+	/bin/rm -f *.pov-state *.mp4 *.mov mirrors???.png axis???.png
