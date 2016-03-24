@@ -28,4 +28,4 @@ mp4:
 	time nice ffmpeg -y -framerate 25 -pattern_type glob -i '${SCENE}???.png' -c:v libx264 -r 30 -pix_fmt yuv420p ${SCENE}.mp4
 
 clean:
-	/bin/rm -f *.pov-state *.mp4 *.mov mirrors???.png axis???.png
+	/bin/rm -f *.pov-state *.mp4 *.mov *.png
