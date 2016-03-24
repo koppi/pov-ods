@@ -13,8 +13,11 @@ help:
 	@echo "  'SCENE=axis INI=MEDSQ  make'"
 	@echo "  'SCENE=axis INI=HIGHSQ make'"
 	@echo ""
-	@echo " render a low quality preview:"
+	@echo " render for a low quality preview:"
 	@echo "  'SCENE=axis INI=LOWSQ POV=+d make'"
+	@echo ""
+	@echo " render for YouTube upload:"
+	@echo "  'SCENE=axis INI=HIGHSQ POV=-d make'"
 	@echo ""
 
 img:
