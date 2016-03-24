@@ -22,7 +22,19 @@
 ```bash
 $ git clone https://github.com/koppi/pov-ods
 $ cd pov-ods
-$ make # or "povray mirrors[MEDSQ]" for low quality preview
+$ make help
+usage:
+  'SCENE=axis make', 'SCENE=mirrors make', see pov/
+
+ quality settings:
+  'SCENE=axis INI=LOWSQ  make'
+  'SCENE=axis INI=MEDSQ  make'
+  'SCENE=axis INI=HIGHSQ make'
+
+ render a low quality preview:
+  'SCENE=axis INI=LOWSQ POV=+d make'
+
+$ SCENE=mirrors make
 ```
 * Inject the spatial media metadata into ```mirrors-loop.mov```:
 ```bash
