@@ -1,5 +1,7 @@
 ## HOWTO create Omni-directional Stereo Content with POV-Ray
 
+[![Join the chat at https://gitter.im/koppi/pov-ods](https://badges.gitter.im/koppi/pov-ods.svg)](https://gitter.im/koppi/pov-ods?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 1. Run POV-Ray
 2. Run ffmpeg
 3. Inject spatial media metadata
