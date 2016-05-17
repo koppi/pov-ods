@@ -65,7 +65,7 @@ $ ./gui.py # opens Spatial Media Metadata Injector GUI
 * YouTube ODS content on Android
   * [Watch 360 degree videos in Cardboard](https://support.google.com/youtube/answer/6239930?hl=en)
 * Related threads – Oculus Forum:
-  * [POV-Ray ODS](https://forums.oculus.com/viewtopic.php?p=340018#p340018)
+  * [POV-Ray ODS](https://forums.oculus.com/community/discussion/30854/pov-ray#latest)
   * [Resolutions and codec for omnidirectional stereo videos](https://forums.oculus.com/viewtopic.php?f=20&t=30852)
 * Related threads – POV-Ray News:
   * [Rendering omnidirectional stereo images for VR headset](http://news.povray.org/povray.text.scene-files/thread/%3C56e3e4b8%241%40news.povray.org%3E/)
