@@ -72,6 +72,8 @@ $ ./gui.py # opens Spatial Media Metadata Injector GUI
 * Related threads – POV-Ray News:
   * [Rendering omnidirectional stereo images for VR headset](http://news.povray.org/povray.text.scene-files/thread/%3C56e3e4b8%241%40news.povray.org%3E/)
   * [The Cave in ODS format (1,4MB)](http://news.povray.org/povray.binaries.images/thread/%3C56e6a09f%40news.povray.org%3E)
+  * [POV-Ray Wiki HowTo:ODS](http://wiki.povray.org/content/HowTo:ODS)
+
 
 ### Credits
 
