@@ -82,6 +82,8 @@ $ ./gui.py # opens Spatial Media Metadata Injector GUI
 
 ### TODO
 
+Spatial audio listening experience on YouTube: Viewers using the YouTube Android app on Android version 4.2 or higher can listen to spatial audio on headphones (recommended) or speakers. Viewers using desktop browsers, like Chrome, Firefox or Opera, or the YouTube iOS app will hear stereo audio.
+
 * Add [Ambisonics](https://en.wikipedia.org/wiki/Ambisonics) sound, see:
   * https://github.com/kronihias/ambix
   * https://storage.googleapis.com/jump-inspector/Jump_Inspector_Quick_Start.pdf
