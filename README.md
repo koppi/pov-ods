@@ -85,6 +85,8 @@ $ ./gui.py # opens Spatial Media Metadata Injector GUI
 * Add [Ambisonics](https://en.wikipedia.org/wiki/Ambisonics) sound, see:
   * https://github.com/kronihias/ambix
   * https://storage.googleapis.com/jump-inspector/Jump_Inspector_Quick_Start.pdf
+  * https://support.google.com/jump/answer/6399746?hl=en&ref_topic=6399824
+  * https://support.google.com/youtube/answer/6395969?hl=en
 * Increase frame-rate and resolution targeted for future [HMD](https://en.wikipedia.org/wiki/Head-mounted_display)s – Needs more:
   * HDD space,
   * CPU power,
